@@ -1,0 +1,25 @@
+<?xml version= "1.0"?> 
+<rdf :RDF : xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:dc=”http://purl.org/dc/elements/1.1/”
+	xmlns="http://purl.org/rss/1.0/">
+
+	<channel rdf:about="https://norbertdajnowski.github.io/RDF-Test/index.html">
+		<title>Test RSS Feed</title>
+		<link>https://norbertdajnowski.github.io/RDF-Test/</link> 
+			<description> The topic of the feed. </description> 
+		<items>
+			<dc:date>2021-02-12</dc:date>
+			<rdf:Seq>
+				<rdf:li rdf:resource="https://norbertdajnowski.github.io/RDF-Test/article1.html" />
+				<rdf:li rdf:resource="https://norbertdajnowski.github.io/RDF-Test/article2.html" />
+				<textinput rdf:resource="https://norbertdajnowski.github.io/RDF-Test/search.php"/>
+			</rdf:Seq>
+		</items>
+		<textinput rdf:about="https://norbertdajnowski.github.io/RDF-Test/search.php">
+			<title>Research</title>
+			<description>search on xul.fr</description>
+			<name>myfield</name>
+			<link>https://norbertdajnowski.github.io/RDF-Test/search.php</link>
+		</textinput>
+	</channel>
+</rdf:RDF>
