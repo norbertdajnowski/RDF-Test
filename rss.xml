@@ -9,14 +9,13 @@
 		<link>https://norbertdajnowski.github.io/RDF-Test/</link> 
 			<description> The topic of the feed. </description> 
 		<items>
-			<dc:date>2021-02-12</dc:date>
 			<rdf:Seq>
 				<rdf:li rdf:resource="https://norbertdajnowski.github.io/RDF-Test/article1.html" />
 				<rdf:li rdf:resource="https://norbertdajnowski.github.io/RDF-Test/article2.html" />
-				<textinput rdf:resource="https://norbertdajnowski.github.io/RDF-Test/search.php"/>
+				
 			</rdf:Seq>
 		</items>
-		<textinput rdf:about="https://norbertdajnowski.github.io/RDF-Test/search.php">
+		<textinput>
 			<title>Research</title>
 			<description>search on xul.fr</description>
 			<name>myfield</name>
